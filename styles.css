@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Assets/fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./Assets/fonts/Poppins-SemiBold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #DAE9DC;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    height: 600px;
+    background: linear-gradient(to left, white 70%, #306230 70%);
+    border-radius: 25px;
+    align-items: center;
+}
+
+img.profile-pic {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+div.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 250px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    align-self: flex-end;
+}
+
+div.contact>div {
+    margin-left: 30px;
+}
+
+.email-1,
+.phone-1 {
+    display: flex;
+    gap: 5px;
+}
+
+img.icon {
+    width: 15px;
+}
+
+.icon-2:first-of-type {
+    margin-right: 10px;
+}
+
+.icon-2:last-of-type {
+    margin-left: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.p-text,
+li {
+    font-size: 0.75rem;
+}
+
+hr {
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+
+div.photo-cv {
+    flex: 1;
+    position: relative;
+}
+
+div.bio {
+    flex: 2;
+}
+
+div.bio {
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+span.name-color {
+    color: #306230;
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
